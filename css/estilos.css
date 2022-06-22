@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.caja1 {
+    position: relative;
+    background-color: rgb(248, 248, 247);
+    height: 35rem;
+    width: 100%;
+}
+#uno {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    animation-delay: 1;
+    animation-duration: 2s;
+}
+#dos {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    animation-delay: 1;
+    animation-duration: 3s;
+}
+#tres {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    animation-delay: 3.0;
+    animation-duration: 3s;
+}
